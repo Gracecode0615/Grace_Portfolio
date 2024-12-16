@@ -1,0 +1,1073 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!--===== Meta Tag =====-->
+	<meta charset="utf-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<meta name="description" content="this is my portfolio, built with HTML,CSS,JS & JQuery for more functionalities">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="keywords" content="business, blog, cv, creative, html, one page, personal, portfolio, resume, responsive, bootstrap,bag maker,designer, developer, ui/ux,">
+	<meta name="author" content="Dajakpome Grace">
+
+	 <!--	Css Links
+    ==================================================-->
+	 <!-- bootstrap online cdn css -->
+	 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+     <link rel="stylesheet" href="css/bootstrap.min.css">
+     <link rel="stylesheet" href="css/font-awesome.min.css">
+     <link rel="stylesheet" href="fonts/flaticon.css">
+     <link rel="stylesheet" href="css/plugins.css">
+     <link rel="stylesheet" href="css/style.css">
+     <link rel="stylesheet" href="css/color.css" id="color-change">
+
+
+     <!-- Favicon 
+    ==================================================-->
+	<link rel="icon" type="image/png" sizes="32x32" href="images/background/professionalpics.jpeg">
+
+      <!--	Title
+    ==================================================-->
+	<title>Personal Portfolio</title>
+
+</head>
+
+<body id="top" class="page-load">
+	<!--	Start Back to top
+	=================================================-->
+	<a href="#" id="scroll" style="display: none;"><span></span></a>
+	<!--	End Back to top
+	==================================================-->
+
+	<!--	Preloader
+	==================================================-->
+	<div class="preloader">
+		<div class="lds-css ng-scope">
+			<div class="lds-spinner" style="width:100%;height:100%">
+				<div></div>
+				<div></div>
+				<div></div>
+				<div></div>
+				<div></div>
+				<div></div>
+				<div></div>
+				<div></div>
+				<div></div>
+				<div></div>
+				<div></div>
+				<div></div>
+			</div>
+		</div>
+	</div>
+	<!-- Color Settings Start
+	==================================================-->
+	<div class="color-panel d-none">
+		<div class="on-panel color_white bg_primary">
+			<div class="text-center icon-spinner">
+			  <i class="fa fa-cog fa-spin fa-3x fa-fw"></i>
+			</div>
+		</div>
+		<div class="panel-box">
+			<span class="panel-title">Theme Colors</span>
+			<ul class="color-box">
+				<li class="default" data-name="default" data-path="css/color.css" data-image="images/logo/1.png" data-target="images/logo/1.png"></li>
+				<li class="color_2" data-name="color_2" data-path="css/color/color-1.css" data-image="images/logo/2.png" data-target="images/logo/2.png"></li>
+				<li class="color_3" data-name="color_3" data-path="css/color/color-2.css" data-image="images/logo/3.png" data-target="images/logo/3.png"></li>
+				<li class="color_4" data-name="color_4" data-path="css/color/color-3.css" data-image="images/logo/4.png" data-target="images/logo/4.png"></li>
+				<li class="color_5" data-name="color_5" data-path="css/color/color-4.css" data-image="images/logo/5.png" data-target="images/logo/5.png"></li>
+				<li class="color_6" data-name="color_6" data-path="css/color/color-5.css" data-image="images/logo/6.png" data-target="images/logo/6.png"></li>
+				<li class="color_7" data-name="color_7" data-path="css/color/color-6.css" data-image="images/logo/7.png" data-target="images/logo/7.png"></li>
+				<li class="color_8" data-name="color_8" data-path="css/color/color-7.css" data-image="images/logo/8.png" data-target="images/logo/8.png"></li>
+				<li class="color_9" data-name="color_9" data-path="css/color/color-8.css" data-image="images/logo/9.png" data-target="images/logo/9.png"></li>
+				<li class="color_10" data-name="color_10" data-path="css/color/color-9.css" data-image="images/logo/10.png" data-target="images/logo/10.png"></li>
+				<li class="color_11" data-name="color_11" data-path="css/color/color-10.css" data-image="images/logo/11.png" data-target="images/logo/11.png"></li>
+				<li class="color_12" data-name="color_12" data-path="css/color/color-11.css" data-image="images/logo/12.png" data-target="images/logo/12.png"></li>
+				<li class="color_13" data-name="color_13" data-path="css/color/color-12.css" data-image="images/logo/13.png" data-target="images/logo/13.png"></li>
+				<li class="color_14" data-name="color_14" data-path="css/color/color-13.css" data-image="images/logo/14.png" data-target="images/logo/14.png"></li>
+			</ul>
+		</div>
+		<div class="switcher_layout">
+			<span class="layout_title">Layout Style</span>
+			<div class="radio_check">
+				<input type="checkbox" id="layout_type" name="layout" value="Yes">
+				<label class="bg_default text-left" for="layout_type"><span class="white_color">Full</span><span class="secondary_color">Box</span></label>
+			</div>
+		</div>
+		<div class="template_style">
+			<span class="layout_title">Style</span>
+			<ul>
+				<li><a class="btn_link" href="index-7.html" target="blank">White Version</a></li>
+				<li><a class="btn_link" href="index-8.html" target="blank">Black Version</a></li>
+			</ul>
+		</div>
+		<div class="box_bg_style">
+			<span class="layout_title">Background pattern</span>
+			<div class="select_bg">
+				<ul>
+					<li><input type="radio" name="radio" id="patrn1" value="pattern_1" /><label for="patrn1" class="radios pattern1"></label></li>
+					<li><input type="radio" name="radio" id="patrn2" value="pattern_2" /><label for="patrn2" class="radios pattern2"></label></li>
+					<li><input type="radio" name="radio" id="patrn3" value="pattern_3" /><label for="patrn3" class="radios pattern3"></label></li>
+					<li><input type="radio" name="radio" id="patrn4" value="pattern_4" /><label for="patrn4" class="radios pattern4"></label></li>
+					<li><input type="radio" name="radio" id="patrn5" value="pattern_5" /><label for="patrn5" class="radios pattern5"></label></li>
+				</ul>
+			</div>
+			<span class="layout_title">Background pattern</span>
+			<div class="select_bg">
+				<ul>
+					<li><input type="radio" name="radio" id="bg_img1" value="body_bg_1" /><label for="bg_img1" class="radios body_image1"></label></li>
+					<li><input type="radio" name="radio" id="bg_img2" value="body_bg_2" /><label for="bg_img2" class="radios body_image2"></label></li>
+					<li><input type="radio" name="radio" id="bg_img3" value="body_bg_3" /><label for="bg_img3" class="radios body_image3"></label></li>
+					<li><input type="radio" name="radio" id="bg_img4" value="body_bg_4" /><label for="bg_img4" class="radios body_image4"></label></li>
+					<li><input type="radio" name="radio" id="bg_img5" value="body_bg_5" /><label for="bg_img5" class="radios body_image5"></label></li>
+					<li><input type="radio" name="radio" id="bg_img6" value="body_bg_6" /><label for="bg_img6" class="radios body_image6"></label></li>
+					<li><input type="radio" name="radio" id="bg_img7" value="body_bg_7" /><label for="bg_img7" class="radios body_image7"></label></li>
+					<li><input type="radio" name="radio" id="bg_img8" value="body_bg_8" /><label for="bg_img8" class="radios body_image8"></label></li>
+					<li><input type="radio" name="radio" id="bg_img9" value="body_bg_9" /><label for="bg_img9" class="radios body_image9"></label></li>
+					<li><input type="radio" name="radio" id="bg_img10" value="body_bg_10" /><label for="bg_img10" class="radios body_image10"></label></li>
+				</ul>
+			</div>
+			<div class="select_bg">
+				<ul>
+					<li><input type="checkbox" name="runaway" id="bg_over" value="" /> Overlay</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<!--  Color Settings End
+	==============================================-->
+
+<!-- Wrapper Start 
+==================================================-->
+<div id="page_wrapper">
+	<div class="row">
+	<!-- Start Nav Menu 
+	==============================================-->
+	<header class="main_nav">
+		<div class="container">
+			<nav id="navbar-example2" class="navbar navbar-expand-lg navbar-light w-100"> 
+				<!-- <a class="navbar-brand" href="#top"><img class="nav-logo" src="images/logo/1.png" alt="logo"></a> -->
+				<a class="navbar-brand" href="#top">Dajakpome Grace</a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav ml-auto">
+					  <li class="nav-item"><a class="nav-link active" href="#top" data-scroll="top">Home<span class="sr-only">(current)</span></a></li>
+					  <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+					  <li class="nav-item"><a class="nav-link" href="#skill">Skill</a></li>
+					  <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+					  <!-- <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>	 -->
+					  <li class="nav-item"><a class="nav-link" href="#testimonial">Teams</a></li>	
+					  <!-- <li class="nav-item"><a class="nav-link" href="#blog">Blog</a></li>	 -->
+					  <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>	
+					</ul>
+				</div>		
+			</nav>
+		</div>	
+	</header>
+	<!-- End Nav Menu
+	==================================================-->
+	
+	<!--	Start Main Banner 
+	==================================================-->
+	<section id="main_banner" class="banner_water_effect background3 overlay_one">
+		<div class="container h-100">
+            <div class="row h-100 align-items-center">
+                <div class="col-md-12 col-lg-12 home-content text-left">
+                    <div class="mainbanner_content fw-bold">
+                        <span class="pb_5 banner_title color_white" style="font-size: 40px; text-transform: uppercase;">I Am <span class="color_default">Dajakpome, Grace Ebruwiyor</span> </span>  
+                        <h1 class="cd-headline clip is-full-width text-uppercase">
+                            <span class="color_white">I am a</span>
+                            <span class="cd-words-wrapper color_default">
+                                <b class="is-visible">web Developer/Instructor.</b>
+                                <b>UI/UX Designer.</b>
+                                <b>Freelancer.</b>
+                                <b>Customer service Representative.</b>
+                                <b>Bag maker.</b>
+                            </span>
+                        </h1>
+                        <p class="color_white mb_30">I bring an unwaving dedication
+							to not only pushing boundaries but also delivering solution that transcend Expectations.</p>
+                        <a class="btn btn-default" href="GraceDajakpome-tech .cv.pdf" id="text">Download CV</a>
+						<input type="hidden" id="btn" name="" value="Download">
+                    </div>
+                </div>          
+            </div>
+        </div>
+    </section>
+	<!--	End Main Banner 
+	==================================================-->
+	<!--	Start About
+	===================================================-->
+	<section id="about" class="py_80 full_row bg_white">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 col-lg-12">
+					<div class="section_title_1 text-center mx-auto pb_60 wow animated slideInUp">
+	                    <h2 class="title text-uppercase"><span class="line_double mx-auto color_default">about</span>about myself</h2>
+	                    <span class="sub_title"></span>
+	                </div>
+				</div>
+			</div>
+			<div class="about_one">
+				<div class="row">
+					<div class="col-md-7 col-lg-7">
+						<div class="myself color_secondery wow animated fadeInLeft">
+							<p>As a young and dynamic professional in the tech industry, I am a web Developer with a strong focus on creating captivating and user-friendly digital experiences. My expertise encompasses a
+								comprehensive skill set, including HTML5, CSS3,Tailwind,JavaScript,React,Jquery and PHP with an additional specialization in UI/UX design using Figma. I bring an unwaving dedication to not only pushing boundaries but also delivering solution that transcend Expectations</p>
+						</div>
+						<div class="personal_info">
+							<div class="row">
+								<div class="col-md-12 col-lg-6">
+									<ul>
+										<li><span class="color_secondery">Name :</span> Dajakpome Grace</li>
+										<li><span class="color_secondery">Email :</span> graceebruwiyor@gmail.com</li>
+										<li><span class="color_secondery">Phone :</span>+234 7038 290 672</li>	
+									</ul>
+								</div>
+								<div class="col-md-12 col-lg-6">
+									<ul>
+										<li><span class="color_secondery">State of Origin :</span>Delta state</li>
+										<li><span class="color_secondery">Blood Group :</span> A+</li>
+										<li><span class="color_secondery">Address :</span>Ikeja,Lagos state.Nigeria</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-5 col-lg-5">
+						<div class="profile_img personal_video wow animated fadeInRight">
+							<img src="images/background/professionalpics.jpeg"  style="border-radius:6px; width: 400px; height: 400px;" alt="image">
+							<!-- <div class="iconround"><a class="video-popup" href="https://vimeo.com/134660574" title="video popup"> -->
+								<div class="iconround"><a class="video-popup" href="images/introvideo.mp4" title="video popup">
+							<i class="fa fa-play" aria-hidden="true"></i></a></div>
+							<div class="loader">
+								<div class="loader-inner ball-scale-multiple">
+									<div></div>
+									<div></div>
+									<div></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--	End About
+	===================================================-->
+	<!--	Start Skill
+	===================================================-->
+	<section id="skill" class="py_80 bg_secondery full_row">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 col-lg-12">
+					<div class="section_title_1 text-center mx-auto pb_60 wow animated slideInUp">
+	                    <h2 class="title text-uppercase"><span class="line_double mx-auto color_default">skill</span>My creative skils & experience.</h2>
+	                    <!-- <span class="sub_title">Interdum a etiam sagittis vehicula porta. Massa felis eros quam blandit nulla dolor habitant. Ullamcorper quis ornare et proin pellentesque.</span> -->
+	                </div>
+				</div>
+			</div>
+			<div class="my_skill">
+				<div class="row">
+					<div class="col-md-12 col-lg-6">
+						<div class="about_myskill color_secondery wow animated slideInLeft">
+							<!-- <h2 class="color_primary">Some talk about my professional design skill</h2> -->
+							<p class="pt_15">I've cultivated a strong foundation in creative design and development, specializing in crafting visually appealing and intuitive digital experiences.</p>
+							<p class="pt_15">My proficiency spans across HTML, CSS, JavaScript, and UI/UX design tools like Figma. With dedication and continuous learning, I've honed my skills to translate ideas into compelling, user-centric solutions. Through collaborative projects and hands-on experience, 
+								I've developed a keen eye for detail and a passion for pushing creative boundaries</p>
+						</div>
+					</div>
+					<div class="col-md-12 col-lg-6">
+						<div class="skill-progress wow animated slideInRight">
+		                    <div class="prgs-bar fact-counter"> <span>HTML</span>
+		                        <div class="progress count wow" data-wow-duration="0ms">
+		                            <div class="skill-percent"><span class="count-num" data-speed="3000" data-stop="90">0</span>%</div>
+		                            <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemax="100"> </div>
+								</div>
+							</div>
+		                    <div class="prgs-bar fact-counter"> <span>CSS</span>
+		                        <div class="progress count wow" data-wow-duration="0ms">
+		                            <div class="skill-percent"><span class="count-num" data-speed="3000" data-stop="95">0</span>%</div>
+		                            <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemax="100"> </div>
+								</div>
+							</div>
+							<div class="prgs-bar fact-counter"> <span>JavaScript</span>
+		                        <div class="progress count wow" data-wow-duration="0ms">
+		                            <div class="skill-percent"><span class="count-num" data-speed="3000" data-stop="60">0</span>%</div>
+		                            <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemax="100"> </div>
+								</div>
+							</div>
+		                    <div class="prgs-bar fact-counter"> <span>JQuery</span>
+		                        <div class="progress count wow" data-wow-duration="0ms">
+		                            <div class="skill-percent"><span class="count-num" data-speed="3000" data-stop="85">0</span>%</div>
+		                            <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemax="100"> </div>
+								</div>
+							</div>
+		                    <div class="prgs-bar fact-counter"> <span>PHP</span>
+		                        <div class="progress count wow" data-wow-duration="0ms">
+		                            <div class="skill-percent"><span class="count-num" data-speed="3000" data-stop="70">0</span>%</div>
+		                            <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemax="100"> </div>
+								</div>
+							</div>
+		                    
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--	End Skill
+	===================================================-->
+	<!--	Start Experience and Projects
+	===================================================-->
+	<div class="experience background2 overlay_two py_60 full_row">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 col-lg-12">
+					<div class="fact-counter">
+						<div class="row">
+							<div class="col-md-4 col-lg-4">
+							    <div class="counter count wow text-center" data-wow-duration="300ms">
+							    	<span class="flaticon-man-working-on-a-laptop-from-side-view"></span>
+					            	<div class="counting_digit color_default mt_15"> <h2 class="count-num" data-speed="3000" data-stop="3">0</h2><span>+</span>
+					            	</div>
+					            	<h3 class="color_white mt_15">Years of Experience</h3>
+					          	</div>
+							</div>
+							<div class="col-md-4 col-lg-4">
+							    <div class="counter count wow text-center" data-wow-duration="300ms">
+							    	<span class="flaticon-half-time-work"></span>
+					            	<div class="counting_digit color_default mt_15"> <h2 class="count-num" data-speed="3000" data-stop="10">0</h2><span>+</span>
+					            	</div>
+					            	<h3 class="color_white mt_15">Projects Done</h3>
+					          	</div>
+							</div>
+							<div class="col-md-4 col-lg-4">
+							    <div class="counter count wow text-center" data-wow-duration="300ms">
+							    	<span class="flaticon-happy"></span>
+					            	<div class="counting_digit color_default mt_15"><h2 class="count-num" data-speed="3000" data-stop="5">0</h2><span>+</span>
+					            	</div>
+					            	<h3 class="color_white mt_15">Happy Clients</h3>
+					          	</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--	End Experience and Projects
+	===================================================-->
+	<!--	Start Services
+	===================================================-->
+	<section id="services" class="py_80 full_row bg_white">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 col-lg-12">
+					<div class="section_title_1 text-center mx-auto pb_60 wow animated slideInUp">
+	                    <h2 class="title text-uppercase"><span class="line_double mx-auto color_default">services</span>What i do</h2>
+	                    <!-- <span class="sub_title">Interdum a etiam sagittis vehicula porta. Massa felis eros quam blandit nulla dolor habitant. Ullamcorper quis ornare et proin pellentesque.</span> -->
+	                </div>
+				</div>
+				<div class="services_item1">
+					<div class="col-md-12 col-lg-12">
+						<div class="row">
+							<div class="col-md-6 col-lg-4">
+								<div class="service_two text-center pt_15 mb_30 wow animated slideInUp">
+					              <div class="srv_item_number color_lightgray"><strong>01.</strong></div>
+					              <h3 class="p_20 text-uppercase color_primary">Web Development</h3>
+					              <div class="srv_icon color_white"><span class="flaticon-programming"></span></div>
+					              <p>Experienced web developer with a strong portfolio of responsive and dynamic websites.Proficient in front-end and back-end technologies such as HTML,CSS,JavaScript,and various frameworks/libraries.Skilled in building custom web applications,optimizing site performance and ensuring cross-browser compatibility.Collaborative team player with a focus on delivering efficient,scalable and user-friendly solutions.
+									Dedicated to continuous learning and staying abreast of emerging web technologies..</p>
+								</div>
+							</div>
+							
+							<div class="col-md-6 col-lg-4">
+								<div class="service_two text-center pt_15 mb_30 wow animated slideInUp">
+					              <div class="srv_item_number color_lightgray"><strong>02.</strong></div>
+					              <h3 class="p_20 text-uppercase color_primary">Freelancing</h3>
+					              <div class="srv_icon color_white"><span class="flaticon-wordpress-logo"></span></div>
+									<p>Experienced freelancer with a proven track record of delivering high-quality projects on time and within budget.Proficient at problem-solving and collaborating with clients to understand their needs and deliver tailored solutions.Strong 
+										communication skills and a dedication to exceeding client expectations.Seeking new opportunities to leverage expertise and contribute to impactful projects.</p>
+								</div>
+							</div>
+							<div class="col-md-6 col-lg-4">
+								<div class="service_two text-center pt_15 mb_30 wow animated slideInUp">
+					              <div class="srv_item_number color_lightgray"><strong>03.</strong></div>
+					              <h3 class="p_20 text-uppercase color_primary">ui/ux Design</h3>
+					              <div class="srv_icon color_white"><span class="flaticon-website-design-symbol"></span></div>
+					              <p>Specializing in creating intuitive and visually appealing digital experiences.Proficient in user research,wireframing,prototyping and interface design,with a keen eye for detail and user-centric design principles.Skilled in collaborating with cross-functional teams to translate client requirements into engaging user interfaces.Passionate about crafting seamless user journeys and enhancing overall user satisfaction.Committed to staying updated on industry trends and technologies to deliver cutting-edge designs..</p>
+								</div>
+							</div>
+						
+						
+							
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--	End Services
+	===================================================-->
+	<!--	Start Portfolio
+	===================================================-->
+	<section id="portfolio" class="py_80 bg_secondery full_row d-none">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 col-lg-12">
+					<div class="section_title_1 text-center mx-auto pb_60 wow animated slideInUp">
+	                    <h2 class="title text-uppercase"><span class="line_double mx-auto color_default">portfolio</span>Recent Projects</h2>
+	                    <span class="sub_title">My works</span>
+	                </div>
+				</div>
+				<div class="col-md-12 col-lg-12">
+					<div class="my_portfolio" id="tab-panel"> 
+              			<!--Filter-->
+						<div class="row">
+							<div class="col-md-12">
+								<div class="filters mb_30 w-100 text-center">
+									<ul class="filter-tabs mx-auto d-inline-block">
+										<li class="active filter" data-role="button" data-filter="all">All</li>
+										<li class="filter" data-role="button" data-filter=".design">Web development</li>
+										<li class="filter" data-role="button" data-filter=".wordpress">UI/UX Designers</li>
+										<!-- <li class="filter" data-role="button" data-filter=".development">Web Development</li>
+										<li class="filter" data-role="button" data-filter=".branding">Branding</li> -->
+									</ul>
+								</div>
+							</div>
+						</div>	
+			              
+						<div class="filter-list">
+							<div class="portfolio-items">
+								<div class="row">
+								  	<div class="column mix mix_all graphic development wordpress mb_30 col-md-4 col-lg-4">
+										<div class="default-portfolio-item">
+											<a href="images/portfolio/01.jpg" data-fancybox="gallery">
+												<img src="images/portfolio/01.jpg" alt="image" />
+												<div class="overlay-box">
+													<span><i class="fa fa-eye" aria-hidden="true"></i></span>
+													<div class="tag">
+														<ul>
+															<li>Web Development,</li>
+															<li>wordpress</li>
+														</ul>
+													</div>
+												</div>
+											</a>
+										</div>
+									</div>
+									<div class="column mix mix_all graphic branding mb_30 col-md-4 col-lg-4">
+										<div class="default-portfolio-item">
+											<a href="images/portfolio/02.jpg" data-fancybox="gallery">
+												<img src="images/portfolio/02.jpg" alt="image" />
+												<div class="overlay-box">
+													<span><i class="fa fa-eye" aria-hidden="true"></i></span>
+													<div class="tag">
+														<ul>
+															<li>Branding,</li>
+															<li>Wordpress</li>
+														</ul>
+													</div>
+												</div>
+											</a>
+										</div>
+									</div>
+									<div class="column mix mix_all design wordpress development mb_30 col-md-4 col-lg-4">
+										<div class="default-portfolio-item">
+											<a href="images/portfolio/03.jpg" data-fancybox="gallery">
+												<img src="images/portfolio/03.jpg" alt="image" />
+												<div class="overlay-box">
+													<span><i class="fa fa-eye" aria-hidden="true"></i></span>
+													<div class="tag">
+														<ul>
+															<li>Web Design,</li>
+															<li>Web Development</li>
+														</ul>
+													</div>
+												</div>
+											</a>
+										</div>
+									</div>
+									<div class="column mix mix_all graphic wordpress branding mb_30 col-md-4 col-lg-4">
+										<div class="default-portfolio-item">
+											<a href="images/portfolio/04.jpg" data-fancybox="gallery">
+												<img src="images/portfolio/04.jpg" alt="image" />
+												<div class="overlay-box">
+													<span><i class="fa fa-eye" aria-hidden="true"></i></span>
+													<div class="tag">
+														<ul>
+															<li>Branding,</li>
+															<li>wordpress</li>
+														</ul>
+													</div>
+												</div>
+											</a>
+										</div>
+									</div>
+									<div class="column mix mix_all graphic design branding mb_30 col-md-4 col-lg-4">
+										<div class="default-portfolio-item">
+											<a href="images/portfolio/05.jpg" data-fancybox="gallery">
+												<img src="images/portfolio/05.jpg" alt="image" />
+												<div class="overlay-box">
+													<span><i class="fa fa-eye" aria-hidden="true"></i></span>
+													<div class="tag">
+														<ul>
+															<li>Web Design,</li>
+															<li>wordpress</li>
+														</ul>
+													</div>
+												</div>
+											</a>
+										</div>
+									</div>
+									<div class="column mix mix_all development wordpress design mb_30 col-md-4 col-lg-4">
+										<div class="default-portfolio-item">
+											<a href="images/portfolio/06.jpg" data-fancybox="gallery">
+												<img src="images/portfolio/06.jpg" alt="image" />
+												<div class="overlay-box">
+													<span><i class="fa fa-eye" aria-hidden="true"></i></span>
+													<div class="tag">
+														<ul>
+															<li>Web Design,</li>
+															<li>Web Development</li>
+														</ul>
+													</div>
+												</div>
+											</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>		
+			        </div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--	End Portfolio
+	===================================================-->
+	<!--	Start Education and Experience
+		===================================================-->
+	    <div id="education" class="section bg_black pp-scrollable">
+	    	<div class="container-fluid">
+	    		<div class="row">
+	    			<div class="col-md-12 col-lg-12">
+	    				<div class="education_experience ml_105 color_lightgray">
+	    					<!--	Start Title
+	    					================================-->
+		    				<div class="main_title my_60">
+								<h2 class="title color_white">Education & Experience</h2>
+								<p class="mt_15 color_lightgray">Interdum a etiam sagittis vehicula porta. Massa felis eros quam blandit nulla dolor habitant.</p>											
+							</div>
+							<!--	End Title
+	    					================================-->
+		    				<ul class="nav nav-pills pb_60" id="pills-tab" role="tablist">
+							  <li class="nav-item">
+							    <a class="btn btn-default active" id="experience" data-bs-toggle="pill" href="#exp1" role="tab" aria-controls="pills-home" aria-selected="true">Experience</a>
+							  </li>
+							  <li class="nav-item mx_10">
+							    <a class="btn btn-default" id="education" data-bs-toggle="pill" href="#edu1" role="tab" aria-controls="pills-profile" aria-selected="false">Education</a>
+							  </li>
+							</ul>
+							<div class="tab-content" id="pills-tabContent">
+							  <div class="tab-pane fade show active" id="exp1" role="tabpanel" aria-labelledby="pills-home-tab">
+						  		<div class="company pb_60">
+								  	<div class="row">
+								  		<div class="col-md-12 col-lg-4">
+								  			<h1 class="color_lightgray font-weight-bold">01.</h1>
+								  			<h4 class="color_white font-weight-bold">Work as Web development instructor</h4>
+								  			<span class="color_secondery">JAN 2024-TILL DATE</span>
+								  		</div>
+								  		<div class="col-md-12 col-lg-4">
+		
+								  			<ul>
+												<li style="list-style: circle;">Delivering high-impact web development courses with
+													a focus on practical skills and industry relevance.</li>
+												<li style="list-style: circle;">Leading the organization of tech events that foster
+														collaboration and innovation within the organization.</li>
+												<li style="list-style: circle;">Critical Thinking to ensure participants are equipped with the latest
+															Leadership & Communication technologies.</li>
+												<li style="list-style: circle;">Microsoft office-(Excel,Powerpoint,Actively involved in training sessions and curriculum word) & Google workspace design to enhance learning experiences.</li>
+												<li style="list-style: circle;">Providing hands-on assistance during classes and
+															beyond to ensure progress and success.</li>
+												<li style="list-style: circle;">Collaborating with colleagues to address questions concerns,and environment maintain an engaging learning</li>
+
+											</ul>
+								  		</div>
+								  		<div class="col-md-12 col-lg-4">
+								  			<img src="images/background/pics2.jpg" alt="image">
+								  		</div>
+							  		</div>
+							  	</div>
+							  	<div class="company pb_60">
+									<div class="row">
+										<div class="col-md-12 col-lg-4">
+											<h1 class="color_lightgray font-weight-bold">02.</h1>
+											<h4 class="color_white font-weight-bold">ALX- ARTIFICIAL INTELLIGENCE CAREER ESSENTIALS (AICE) -OFFSITE</h4>
+											<span class="color_secondery">APRIL 2024-MAY, 2024</span>
+										</div>
+										<div class="col-md-12 col-lg-4">
+											<img src="images/about/40-alx-aice-ai-career-essentials-certificate-esiri-solomon.png" alt="image">
+										</div>
+										<div class="col-md-12 col-lg-4">
+	  
+											<ul>
+											  <li style="list-style: circle;"><b>Competent in communication, resume building, and interview preparation..</b></li>
+											  <li style="list-style: circle;">Supervised and unsupervised learning, neural networks, and natural language processing.</li>
+											  <li style="list-style: circle;">Utilizing AWS, Google Cloud, Azure, and understanding DevOps practices and cloud security.</li>
+											  <li style="list-style: circle;">Participate in regular team meetings to provide updates on progress and discuss challenges.</li>
+											  <li style="list-style: circle;">Skilled in data manipulation and visualization.</li>
+											
+										  </ul>
+										</div>
+										
+									</div>
+							  	</div>
+							  	<div class="company pb_60">
+									<div class="row">
+										<div class="col-md-12 col-lg-4">
+											<img src="images/about/Dajakpome Grace_page-0001.jpg" alt="image">
+										</div>
+										<div class="col-md-12 col-lg-4">
+											<h1 class="color_lightgray font-weight-bold">03.</h1>
+											<h4 class="color_white font-weight-bold">WEB DESIGNS-INTERNSHIP - CODSOFT TECH</h4>
+											<span class="color_secondery">NOV, 2023-DEC, 2023</span>
+										</div>
+										
+										<div class="col-md-12 col-lg-4">
+	  
+											<ul>
+											  <li style="list-style: circle;">Stay updated on emerging technologies and industry trends to contribute fresh ideas to the team.</li>
+											  <li style="list-style: circle;">Collaborate with graphic designers and other team members to create visually appealing interfaces.</li>
+											  <li style="list-style: circle;">Participate in regular team meetings to provide updates on progress and discuss challenges.</li>
+											  <li style="list-style: circle;">Follow best practices and coding standards to maintain a high level of code quality.</li>
+											  <li style="list-style: circle;">Adhere to project timelines and deadlines for timely deliverables.</li>
+											  <li style="list-style: circle;">Collaborating with colleagues to address questions concerns,and environment maintain an engaging learning</li>
+
+										  </ul>
+										</div>
+										
+									</div>
+							  	</div>
+							  </div>
+							  <div class="tab-pane fade" id="edu1" role="tabpanel" aria-labelledby="pills-profile-tab">
+							  	<div class="company pb_60">
+							  		<div class="row">
+								  		<div class="col-md-12 col-lg-4">
+								  			<img src="images/about/ALX-SE_Certificate.png" alt="image">
+								  		</div>
+								  		<div class="col-md-12 col-lg-4">
+								  			<p>Certified in dynamic, problem-solving projects aligned with
+												evolving Computer Science standards and ethical practices</p>
+								  		</div>
+								  		<div class="col-md-12 col-lg-4">
+								  			<h1 class="color_lightgray font-weight-bold">01.</h1>
+								  			<h4 class="color_white font-weight-bold">ALX - Nairobi, Kenya - Software Engineering Certification</h4>
+											<span><em>Computer Science</em></span><br>
+								  			<span class="color_secondery">July 2023 - October 2024</span>
+								  		</div>
+								  	</div>
+							  	</div>
+							  	<div class="company pb_60">
+							  		<div class="row">
+								  		<div class="col-md-12 col-lg-4">
+								  			<h1 class="color_lightgray font-weight-bold">02.</h1>
+								  			<h4 class="color_white font-weight-bold">LINAR SCHOOL OF MEDIA & IT.</h4>
+								  			<span class="color_secondery">Lagos,Nigeria. <br>
+												B.tech June-Oct 2023</span>
+								  		</div>
+								  		<div class="col-md-12 col-lg-4">
+								  			<img src="images/about/WEB_DEVELOPMENT_page-0001.jpg" alt="image">
+								  		</div>
+								  		<div class="col-md-12 col-lg-4">
+											<ul>
+												<li style="list-style: circle;">Attend classes regularly and punctually.</li>
+												<li style="list-style: circle;">Complete any assigned readings or pre-class activities related to HTML, CSS, JavaScript, and PHP.</li>
+												<li style="list-style: circle;">Actively participate in hands-on coding exercises during class sessions.</li>
+												<li style="list-style: circle;">Practice coding outside of class to reinforce my understanding.</li>
+												<li style="list-style: circle;">Complete assignments and projects on time.</li>
+												<li style="list-style: circle;">Seek feedback from instructors to improve my coding skills.
+													<br> Conduct classes for the junior classes</li>
+
+											</ul>
+								  			
+								  		</div>
+								  	</div>
+							  	</div>
+							  	<div class="company pb_60">
+							  		<div class="row">
+							  			<div class="col-md-12 col-lg-4">
+								  			<p>Accumsan nibh. Amet erat curae; scelerisque euismod arcu scelerisque pede sociis molestie sociosqu mus consequat feugiat vulputate. Commodo semper porta. Sed. Ultrices ultrices orci pharetra. Per et mi sem sem facilisi nonummy. Vivamus tortor arcu semper massa est accumsan. Litora nullam Integer aenean. Vivamus tortor arcu semper massa est accumsan.</p>
+								  			
+								  		</div>
+								  		<div class="col-md-12 col-lg-4">
+								  			<h1 class="color_lightgray font-weight-bold">03.</h1>
+								  			<h4 class="color_white font-weight-bold">UI UX DESIGNER - CYBERSAFE FOUNDATION, UK AID(OFFSITE)</h4>
+								  			<span class="color_secondery">JULY, 2023-OCT.</span>
+								  		</div>
+								  		<div class="col-md-12 col-lg-4">
+								  			<img src="images/about/UI_CERTIFICATE_page-0001.jpg" alt="image">
+								  		</div>
+								  	</div>
+							  	</div>
+							  </div>
+							</div>
+		    			</div>
+	    			</div>
+	    		</div>
+	    		<div class="row bg_deepblack">
+	    			<div class="col-md-12 col-lg-12">
+	    				<div class="video my_60">
+							<div class="row">
+								<div class="col-md-12 col-lg-7">
+									<div class="video_content ml_105">
+										<h2 class="color_default">My professional video</h2>
+										<p class="color_white">Suscipit malesuada venenatis. Orci a enim sapien ad elit ac. Pretium class. Quis ad Fusce et, mus eleifend nibh neque at ullamcorper hac eu est. Ad. Dignissim lorem nostra. Et non, posuere pharetra fames. Facilisi. Venenatis integer pharetra gravida.</p>
+									</div>
+								</div>
+								<div class="col-md-12 col-lg-5">
+									<div class="personal_video">
+										<!-- <img src="images/video.jpg" alt="image"> -->
+										<img src="images/Work.jpeg" alt="image">
+										<a class="video-popup" href="images/introvideo.mp4" title="video popup">
+										<i class="fa fa-play" aria-hidden="true"></i></a>
+										<div class="loader xy-center">
+											<div class="loader-inner ball-scale-multiple">
+												<div></div>
+												<div></div>
+												<div></div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>	
+	    			</div>
+	    		</div>
+	    	</div>
+	    </div>
+	    <!--	End Education and Experience
+		===================================================-->
+
+	<!--	Start Testimonial
+	===================================================-->
+	<section id="testimonial" class="py_80 full_row bg_white">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 col-lg-12">
+					<div class="section_title_1 text-center mx-auto pb_60 wow animated slideInUp">
+	                    <h2 class="title text-uppercase"><span class="line_double mx-auto color_default">Teams</span>Who are with me</h2>
+	                    <!-- <span class="sub_title">Interdum a etiam sagittis vehicula porta. Massa felis eros quam blandit nulla dolor habitant. Ullamcorper quis ornare et proin pellentesque.</span> -->
+	                </div>
+				</div>
+				<div class="col-md-12 col-lg-12">
+    				<div class="testimonial_item owl-carousel wow animated slideInUp">
+    					<div class="member_feedback p_30 color_secondery">
+							<div class="client_img"><img src="images/about/hodpics.jpeg" alt="image"></div>
+							<div class="star d-inline-block mt_30 color_default">
+								<ul>
+									<li><i class="fa fa-star" aria-hidden="true"></i></li>
+									<li><i class="fa fa-star" aria-hidden="true"></i></li>
+									<li><i class="fa fa-star" aria-hidden="true"></i></li>
+									<li><i class="fa fa-star" aria-hidden="true"></i></li>
+									<li><i class="fa fa-star" aria-hidden="true"></i></li>
+								</ul>
+							</div>
+							<h5 class="color_primary mb_15">Ibrahim Aminu</h5>
+							<p>Senior Developer.</p>
+						</div>
+						<div class="member_feedback p_30 color_secondery">
+							<div class="client_img"><img src="images/about/godwill.jpeg" alt="image"></div>
+							<div class="star d-inline-block mt_30 color_default">
+								<ul>
+									<li><i class="fa fa-star" aria-hidden="true"></i></li>
+									<li><i class="fa fa-star" aria-hidden="true"></i></li>
+									<li><i class="fa fa-star" aria-hidden="true"></i></li>
+									<li><i class="fa fa-star" aria-hidden="true"></i></li>
+									<li><i class="fa fa-star" aria-hidden="true"></i></li>
+								</ul>
+							</div>
+							<h5 class="color_primary mb_15">Godswill Idebe</h5>
+							<p>Full stack Developer</p>
+						</div>
+						<div class="member_feedback p_30 color_secondery">
+							<div class="client_img"><img src="images/about/sam.jpeg" alt="image"></div>
+							<div class="star d-inline-block mt_30 color_default">
+								<ul>
+									<li><i class="fa fa-star" aria-hidden="true"></i></li>
+									<li><i class="fa fa-star" aria-hidden="true"></i></li>
+									<li><i class="fa fa-star" aria-hidden="true"></i></li>
+									<li><i class="fa fa-star" aria-hidden="true"></i></li>
+									<li><i class="fa fa-star" aria-hidden="true"></i></li>
+								</ul>
+							</div>
+							<h5 class="color_primary mb_15">Blessed Sam</h5>
+							<p>UI/UX Expert</p>
+						</div>
+					
+						
+    			</div>
+			</div>
+		</div>
+	</section>
+	<!--	End Testimonial
+	===================================================-->
+	<!--	Start Blog
+	===================================================-->
+	<section id="blog" class="py_80 bg_secondery full_row d-none">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 col-lg-12">
+					<div class="section_title_1 text-center mx-auto pb_60 wow animated slideInUp">
+	                    <h2 class="title text-uppercase"><span class="line_double mx-auto color_default">blog</span>What’s News</h2>
+	                    <span class="sub_title">Stay updated with the top 10 best tech websites & blogs in 2024. Explore the latest in technology, gadgets, and digital trends. Learn from experts and industry leaders.</span>
+	                </div>
+				</div>
+				<div class="col-md-12 col-lg-12">
+					<div class="blog_grid_1 wow animated slideInUp">
+						<div class="row">
+							<div class="col-md-12 col-lg-4">
+								<div class="blog_item">
+									<div class="comments">
+										<i class="fa fa-comment" aria-hidden="true"></i>
+										<span class="color_white">12</span>
+									</div>
+									<div class="blog_img overlay_one"><img src="images/blog/01.jpg" alt="image"></div>
+									<div class="blog_content bg_white color_secondery">
+										<div class="blog_title">
+											<a class="color_primary" href="blog-details.html">TechCrunch is all about the tech world. It talks about new companies just starting, the latest technologies coming out, deals involving money in tech, and big events happening. They keep an eye on lots of tech companies and follow who's getting investment money and how much.</h5></a>
+										</div>
+										<!-- <p class="mt_15 mb_30">Dictumst integer sollicitudin venenatis ornare quam. Ligula integer luctus, blandit egestas molestie facilisi porttitor neque sodal luctus senectus lacinia euismod adipiscing element turpis dolor curae; posuere augue.</p> -->
+										
+										<div class="admin">
+											<img src="images/about/02.jpg" alt="image">
+											<span class="color_white">By - Rockstar Jack</span>
+										</div>
+										<div class="date float-right color_primary">20 Jan 2019</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-12 col-lg-4">
+								<div class="blog_item">
+									<div class="comments">
+										<i class="fa fa-comment" aria-hidden="true"></i>
+										<span class="color_white">18</span>
+									</div>
+									<div class="blog_img overlay_one"><img src="images/blog/02.jpg" alt="image"></div>
+									<div class="blog_content bg_white color_secondery">
+										<div class="blog_title">
+											<a class="color_primary" href="blog-details.html"><h5>Ornare fames imperdiet sapien. Iaculis dictum aptent commodo at iaculis.</h5></a>
+										</div>
+										<p class="mt_15 mb_30">Dictumst integer sollicitudin venenatis ornare quam. Ligula integer luctus, blandit egestas molestie facilisi porttitor neque sodal luctus senectus lacinia euismod adipiscing element turpis dolor curae; posuere augue.</p>
+										
+										<div class="admin">
+											<img src="images/about/02.jpg" alt="image">
+											<span class="color_white">By - Rockstar Jack</span>
+										</div>
+										<div class="date float-right color_primary">18 Jan 2019</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-12 col-lg-4">
+								<div class="blog_item">
+									<div class="comments">
+										<i class="fa fa-comment" aria-hidden="true"></i>
+										<span class="color_white">23</span>
+									</div>
+									<div class="blog_img overlay_one"><img src="images/blog/03.jpg" alt="image"></div>
+									<div class="blog_content bg_white color_secondery">
+										<div class="blog_title">
+											<a class="color_primary" href="blog-details.html"><h5>Vulputate donec sem purus litora varius auctor augue suscipit hac.</h5></a>
+										</div>
+										<p class="mt_15 mb_30">Dictumst integer sollicitudin venenatis ornare quam. Ligula integer luctus, blandit egestas molestie facilisi porttitor neque sodal luctus senectus lacinia euismod adipiscing element turpis dolor curae; posuere augue.</p>
+										
+										<div class="admin">
+											<img src="images/about/02.jpg" alt="image">
+											<span class="color_white">By - Rockstar Jack</span>
+										</div>
+										<div class="date float-right color_primary">17 Jan 2019</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="mx-auto text-center mt_60"><a class="btn btn-default" href="blog.html">View Blog</a></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--	End Blog
+	===================================================-->
+	<!--	Start Contact
+	===================================================-->
+	<section id="contact" class="py_80 full_row bg_white">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 col-lg-12">
+					<div class="section_title_1 text-center mx-auto pb_60 wow animated slideInUp">
+	                    <h2 class="title text-uppercase"><span class="line_double mx-auto color_default">contact</span>Get In Touch</h2>
+	                    <span class="sub_title">i can be reach convinently on </span>
+	                </div>
+				</div>
+				<div class="col-md-12 col-lg-12">
+					<div class="row">
+						<div class="col-md-4 col-lg-4">
+							<div class="contact_info wow animated fadeInLeft">
+		    					<ul>
+		    						<li>
+		    							<div class="contact_text">
+		    								<h6 class="font-weight-bold color_primary">Email</h6>
+		    								<span class="color_secondery">graceebruwiyor@gmail.com</span>
+		    							</div>
+		    						</li>
+		    						<li>
+		    							<div class="contact_text">
+		    								<h6 class="font-weight-bold color_primary">Phone</h6>
+		    								<span class="color_secondery">+2347038290672</span>
+		    							</div>
+		    						</li>
+		    						<li>
+		    							<div class="contact_text">
+		    								<h6 class="font-weight-bold color_primary">Address</h6>
+		    								<span class="color_secondery">ikeja, lagos state Nigeria</span>
+		    							</div>
+		    						</li>
+		    						<li>
+		    							<div class="contact_text">
+		    								<h6 class="font-weight-bold color_primary">Website</h6>
+		    								<span class="color_secondery"><a href="https://gracefolio.netlify.app/" style="text-decoration: none; color:gray;">gracefolio.netify.app</a></span>
+		    							</div>
+		    						</li>
+		    					</ul>
+		    				</div>
+		    				<div class="socal_media_2 mt_15 d-inline-block">
+					            <ul>
+					                <li><a href="https://www.facebook.com/grace.dajakpome/"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+					                <li><a href="https://x.com/EsiriGrace"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+					                <li><a href="mailto:graceebruwiyor@gmail.com"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+					                <li><a href="www.linkedin.com/in/grace-esiri-3b7a49212"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+					                <li><a href="https://www.instagram.com/gracedesigns_9/"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+					            </ul>
+					        </div>
+						</div>
+						<div class="col-md-8 col-lg-8">
+							<form class="form contact_message wow animated fadeInRight"  action="https://formspree.io/f/xdkojrpv" method="post">
+								<div class="row">
+									<div class="col-md-6 col-lg-6">
+										<div class="form-group">
+											<input class="form-control" type="text" name="name" placeholder="Your Name" required />
+										</div>
+									</div>
+									<div class="col-md-6 col-lg-6">
+										<div class="form-group">
+											<input class="form-control" type="email" name="email" placeholder="Email Address" required/>
+										</div>
+									</div>
+									<div class="col-md-12 col-lg-12">
+										<div class="form-group">
+										  <input class="form-control" type="text" name="subject" placeholder="Subject" required />
+										</div>
+									</div>
+									<div class="col-md-12 col-lg-12">
+										<div class="form-group">
+											<textarea class="form-control" name="message" rows="7" placeholder="Message" required></textarea>
+										</div>							
+									</div>
+									<div class="col-md-12 col-lg-12">
+										<div class="form-group">
+											<input class="btn btn-default"  value="Send Message" type="submit"/>
+										</div>
+									</div>
+									<!-- <div class="col-md-12 col-lg-12">
+										<div class="error-handel">
+											<div id="success">Your email sent Successfully, Thank you.</div>
+											<div id="error"> Error occurred while sending email. Please try again later.</div>
+										</div>
+									</div> -->
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--	End Contact
+	===================================================-->
+	<!--	Start Footer
+	===================================================-->
+	<footer class="p_20 color_primary bg_secondery text-center full_row">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 col-lg-12">
+					<div class="copyright"><p><a href="" target="_blank" style="color:#333">@copyright|Allrights reservered 2024</a></p></div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!--	End Footer
+	===================================================-->
+	</div>
+</div>
+<!--	Wrapper End
+=======================================================-->
+	<!--	Js Links
+	===================================================-->
+	<script src="js/jquery.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/plugins.js"></script>
+	<script src="js/custom.js"></script>
+
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+	<script>
+		$(document).ready(function() {
+		//=========================================
+		//  Water Effect
+		//=========================================
+		
+			$('.banner_water_effect').ripples({
+			  resolution: 256,
+			  dropRadius: 20,
+			  perturbance: 0.03,
+			  interactive:true,
+			});
+		//  Smoothscroll js
+		//=========================================
+		  $("a").on('click', function(event) {
+
+			  if (this.hash !== "") {
+				event.preventDefault();
+			  
+				var hash = this.hash;
+
+				$('html, body').animate({
+				  scrollTop: $(hash).offset().top 
+				}, 1000, function(){
+			 
+				  window.location.hash = hash;
+				});
+			  }
+			});
+		 });
+
+		 //download script
+
+			function download(cve1, textInput) {
+
+			var element = document.createElement('a');
+			element.setAttribute('href','data:text/plain;charset=utf-8, ' + encodeURIComponent(textInput));
+			element.setAttribute('download', filename);
+			document.body.appendChild(element);
+			element.click();
+			//document.body.removeChild(element);
+			}
+			document.getElementById("btn").addEventListener("click", function () {
+			var text = document.getElementById("text").value;
+			var filename = "output.txt";
+			download(cve1, text);
+			}, false);
+	</script>
+</body>
+
+<!-- index-754:31-->
+</html>
